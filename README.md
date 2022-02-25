@@ -1,7 +1,7 @@
 # Copy template
 
 - Choose where to copy files to
-- Choose from multiple [templates](https://github.com/Syhner/copy-template/tree/main/templates)
+- Choose from multiple [templates](https://github.com/Syhner/copy-template/tree/master/templates)
 - Choose if you want to install dependencies
 - No need to delete .git files
 
