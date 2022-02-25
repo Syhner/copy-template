@@ -1,0 +1,29 @@
+{
+  "name": "copy-template",
+  "version": "1.0.0",
+  "description": "Copy a template and choose configuration options",
+  "scripts": {
+    "gpr-setup": "node scripts/gpr-setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syhner/copy-template.git"
+  },
+  "keywords": [
+    "templates"
+  ],
+  "bin": "./bin/cli.js",
+  "author": {
+    "name": "Syhner",
+    "email": "syhner@hotmail.com"
+  },
+  "publishConfig": {
+    "@syhner:registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  }
+}
