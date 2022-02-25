@@ -6,6 +6,6 @@ const file = readFileSync('./package.json', {
 
 const json = JSON.parse(file);
 
-json.name = '@syhner/create-react-apps';
+json.name = '@syhner/copy-template';
 
 writeFileSync('./package.json', JSON.stringify(json, undefined, 2));
